@@ -1,0 +1,35 @@
+.theme-light {
+  --color-primary: #0060df;
+  --color-secondary: #fbfbfe;
+  --color-accent: #fd6f53;
+  --font-color: #000000;
+  --color-card: #F2F2F3;
+}
+.theme-dark {
+  --color-primary: #17ed90;
+  --color-secondary: #2a2c2d;
+  --color-accent: #12cdea;
+  --font-color: #ffffff;
+  --color-card: #333333;
+}
+
+.container, .grid {
+  background: var(--color-secondary);
+}
+
+.card {
+  background: var(--color-card);
+  &-title {
+    color: var(--font-color);
+  }
+  &-description {
+    color: var(--font-color);
+  }
+  &-phone {
+    color: var(--font-color);
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: var(--font-color);
+}
